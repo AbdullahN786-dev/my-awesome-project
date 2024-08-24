@@ -1,4 +1,9 @@
-<!DOCTYPE html>
+# Clone your repository
+git clone https://github.com/AbdullahN786-dev/my-awesome-project/my-github-pages.git
+cd my-github-pages
+
+# Create and edit index.html
+echo '<!DOCTYPE html>
 <html>
 <head>
     <meta http-equiv="refresh" content="0;url=https://www.translation.pk/" />
@@ -7,4 +12,9 @@
 <body>
     <p>If you are not redirected automatically, follow this <a href="https://www.translation.pk/">link</a>.</p>
 </body>
-</html>
+</html>' > index.html
+
+# Add, commit, and push changes
+git add index.html
+git commit -m "Add redirect to translation.pk"
+git push origin main
